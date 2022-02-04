@@ -6,7 +6,7 @@ export default function signToken(req,res){
   return res.status(201).json({
     
       token: jwt.sign(id, "123", {
-      expiresIn: "10s",
+      expiresIn: "30s",
       }),
     });
   }
