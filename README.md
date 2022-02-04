@@ -2,16 +2,19 @@
 
 **Desafio**: Consumindo uma api de CEP (https://viacep.com.br/) utilizando NodeJS
 
-Execute no diretorio do projeto - **npm install**
+Execute no diretorio do projeto - 
+  **npm install**
 para instalar todas as dependências
 
 Foi implementado o sistema de cache na requisição utilizando Redis
 **Redis:** https://redis.io/
 
 Recomendo que utilize o docker para utilziar o redis:
-Instale o redis a partir do docker: **docker pull redis**
+Instale o redis a partir do docker:
+**docker pull redis**
 
-Inicialize um container **docker run -d -p 6379:6379 -i -t redis**
+Inicialize um container
+**docker run -d -p 6379:6379 -i -t redis**
 
 **Utilização da API**
 O servidor esta rodando na porta 8001
