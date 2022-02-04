@@ -1,0 +1,92 @@
+_type: export
+__export_format: 4
+__export_date: 2022-02-04T02:05:06.003Z
+__export_source: insomnia.desktop.app:v2021.7.2
+resources:
+  - _id: req_583d5afb809c419a88ed96b31c1bd72f
+    parentId: wrk_4d4b031bd335414199dd1b7c84eb8ddb
+    modified: 1643939386076
+    created: 1643939343772
+    url: http://localhost:8001/auth/1
+    name: AUTHENTICATE
+    description: ""
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - id: pair_b6a54aeec92946e2ba76ba39d8eae2bc
+          name: ""
+          value: ""
+          description: ""
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+        id: pair_98006d88bfb9436489352ad838e2dfcf
+    authentication: {}
+    metaSortKey: -1643939343772
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_4d4b031bd335414199dd1b7c84eb8ddb
+    parentId: null
+    modified: 1643940263506
+    created: 1611098281796
+    name: DESAFIO NODE
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_4f789576161f42f6ab70d6ab5c840612
+    parentId: wrk_4d4b031bd335414199dd1b7c84eb8ddb
+    modified: 1643940154373
+    created: 1643939247602
+    url: http://localhost:8001/87502040
+    name: POST CEP
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE2NDM5NDAxNTAsImV4cCI6MTY0Mzk0MDE2MH0.oQJK2PsrgGGugxpzGQAvYVrqL4QnfQKKuJMVyYqHiEw
+    metaSortKey: -1643939247602
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_f10511041e6835ca1ecba6cddeadf9e1dce6c570
+    parentId: wrk_4d4b031bd335414199dd1b7c84eb8ddb
+    modified: 1611098281831
+    created: 1611098281831
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1611098281831
+    _type: environment
+  - _id: jar_f10511041e6835ca1ecba6cddeadf9e1dce6c570
+    parentId: wrk_4d4b031bd335414199dd1b7c84eb8ddb
+    modified: 1611098281833
+    created: 1611098281833
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_1261990520c949c4af589ee047b6b410
+    parentId: wrk_4d4b031bd335414199dd1b7c84eb8ddb
+    modified: 1611098281798
+    created: 1611098281798
+    fileName: da
+    contents: ""
+    contentType: yaml
+    _type: api_spec
