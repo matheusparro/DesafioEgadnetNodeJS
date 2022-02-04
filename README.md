@@ -18,6 +18,8 @@ O servidor esta rodando na porta 8001
 
 Execute o comando **npm run dev** assim irá iniciar o servidor das api's
 
+**OBS: Caso no console aparecer [*] Redis connected. quer dizer que seu redis está configurado certo!**
+
 Existe um **arquivo para importar no INSOMNIA** dentro do projeto
 
 **Requisões**
