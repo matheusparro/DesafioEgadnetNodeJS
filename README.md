@@ -27,6 +27,6 @@ Existe um **arquivo para importar no INSOMNIA** dentro do projeto
 
 **Requisões**
 
-**Auth - GET **: **/auth**       -> Apenas envie a requisição, não é necessário passar parametros, apenas para demonstrar o funcionamento do JWT (autenticação)
+**Auth - POST **: ** " /auth "**       -> Apenas envie a requisição, não é necessário passar parametros, apenas para demonstrar o funcionamento do JWT (autenticação)
 
-**BUSCAR CEP - POST**: **/:cep** -> digite o cep http://localhost:8081/89140000
+**CEP  - POST  **: ** " /:cep "**      -> digite o cep http://localhost:8081/89140000
